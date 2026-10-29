@@ -23,7 +23,7 @@ Three rounds contain 486 scored observations with all failures retained. Only R1
 | `output/pdf/` | Integrated report and historical original report |
 | `archive/` | Preserved historical development files and progress snapshots |
 
-These are shared directories for one system. Member-named folders and GPT operation instructions do not belong in the project source tree.
+These shared directories form one system.
 
 ## Team responsibilities
 
@@ -40,4 +40,4 @@ These are shared directories for one system. Member-named folders and GPT operat
 
 The original source and experiment history are preserved at [the source repository](https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation). The benchmark is [MCPEvol-Bench](https://github.com/Octobrist/MCPEvol-Bench), pinned to revision `888c779a0fe735f612ca62bdd1fdd7c9e6bf8701`. Actor/updater: local Qwen3 4B; judge: local Qwen2.5 7B through llama.cpp. No paid API is required; model weights and runtime dependencies are installed separately.
 
-Project documents and upload materials are English. Frozen data, model messages, logs, contracts, and receipts retain original bytes and language. Development and evidence review used AI assistance. Responsibility areas and upload activity do not establish independent authorship. Saved plans and automatic scores must be checked against actual calls and artifacts.
+Project documents are English. Frozen data, model messages, logs, contracts, and receipts retain original bytes and language. Development and evidence review used AI assistance. Saved plans and automatic scores must be checked against actual calls and artifacts.
